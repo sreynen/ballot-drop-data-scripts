@@ -88,7 +88,7 @@ def format(args):
                 value = row.split(':')[1].strip()
                 column_three_dict[key] = value
             else:
-                column_three_dict[key] += ' ' + value
+                column_three_dict[key] += ' ' + row
         row = {
             'hindi': hindi,
             'city': city.strip(),
